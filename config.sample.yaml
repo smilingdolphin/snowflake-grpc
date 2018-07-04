@@ -1,0 +1,9 @@
+server:
+  port: 11070
+
+redis:
+  host: "10.0.1.64"
+  port: 6379
+  password: ""
+  db: 0
+  pool_size: 15

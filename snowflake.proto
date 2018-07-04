@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package fpay.snowflake;
+
+service SnowflakeService {
+  rpc Generate(Request) returns (Response) {}
+}
+
+// 请求结构体
+message Request {
+}
+
+// 返回结构体
+message Response {
+  int64 uniqid = 1; // 唯一ID
+}
